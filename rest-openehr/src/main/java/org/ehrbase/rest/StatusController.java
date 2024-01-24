@@ -99,4 +99,9 @@ public class StatusController extends BaseController {
 
         return ResponseEntity.ok(responseData);
     }
+
+    @GetMapping(path = "/hello", produces = MediaType.TEXT_PLAIN_VALUE)
+    public ResponseEntity<String> sayHello() {
+        return ResponseEntity.ok("Welcome to SolveAll");
+    }
 }

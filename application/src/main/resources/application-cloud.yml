@@ -1,6 +1,6 @@
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5432/ehrbase
+    url: jdbc:postgresql://ehrdb:5432/ehrbase
     username: ehrbase_restricted
     password: ehrbase_restricted
     hikari:
